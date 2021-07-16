@@ -7,12 +7,16 @@ order: -30
 
 ## Tableau
 
+<caption>Essai de balise caption</caption>
+
 | Colonne 1           | Colonne 2 |
 |---------------------|----------:|
 | texte de la cellule | jkhjkjhkj |
 | Autre texte         |    jkhhkj |
 
-: titre du tableau
+Table 1: titre du tableau
+
+
 
 ## Blocs d'info
 
