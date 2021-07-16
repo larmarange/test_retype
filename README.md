@@ -1,3 +1,3 @@
-# test_retype
+# Site de test Retype
 
-a GitHub repository to test <https://retype.com/>
+Ceci est un site de test pour voir comment écrire un ouvrage avec <https://retype.com/>.
