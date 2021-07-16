@@ -1,5 +1,5 @@
 ---
-order: 200
+order: -20
 label: Un autre chapitre
 ---
 
