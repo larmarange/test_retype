@@ -19,8 +19,8 @@ order: -30
 | Autre texte         |    jkhhkj |
 
 
-<figure>
-  
+</figure>
+
 ### HTML
 
 <table>
