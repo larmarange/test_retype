@@ -7,7 +7,7 @@ order: -30
 
 ## Tableau
 
-<caption>Essai de balise caption</caption>
+### Markdown
 
 | Colonne 1           | Colonne 2 |
 |---------------------|----------:|
@@ -16,7 +16,26 @@ order: -30
 
 Table 1: titre du tableau
 
+### HTML
 
+<table>
+  <caption>Titre du tableau</caption>
+  <thead><tr><th>Colonne 1</th><th style="text-align: right;">Colonne 2</th></tr></thead>
+  <tbody><tr><td>texte de la cellule</td><td style="text-align: right;">jkhjkjhkj</td></tr><tr><td>Autre texte</td><td style="text-align: right;">jkhhkj</td></tr></tbody>
+</table>
+
+## Une image
+
+### Markdown
+
+![Le VIH](vih.jpg)
+
+### HTML
+
+<figure>
+  <img src="vih.jpg" alt="Le VIH" />
+  <figcaption>Le virus VIH</figcaption>
+</figure>
 
 ## Blocs d'info
 
