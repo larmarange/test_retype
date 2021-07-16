@@ -2,7 +2,7 @@
   "base": "test_retype",
   "branding": {
     "title": "Livre test ReType"
-  }
+  },
   "links": [
     {
       "text": "Accueil",
