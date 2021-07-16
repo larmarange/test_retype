@@ -9,7 +9,8 @@ order: -30
 
 ### Markdown 
 
-<div class="caption">Titre du tableau</div>
+<figure>
+<figcaption class="caption">Titre du tableau</figcaption>
 
 
 | Colonne 1           | Colonne 2 |
@@ -18,6 +19,8 @@ order: -30
 | Autre texte         |    jkhhkj |
 
 
+<figure>
+  
 ### HTML
 
 <table>
