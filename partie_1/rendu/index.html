@@ -15,12 +15,14 @@
     <meta property="og:url" content="/test_retype/partie_1/rendu/">
     <meta property="og:title" content="Rendu HTML des différents composants">
     <meta property="og:description" content="Colonne 1">
+    <meta property="og:image" content="/test_retype/partie_1/vih.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/test_retype/partie_1/rendu/">
     <meta property="twitter:title" content="Rendu HTML des différents composants">
     <meta property="twitter:description" content="Colonne 1">
+    <meta property="twitter:image" content="/test_retype/partie_1/vih.jpg">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/test_retype/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -191,7 +193,12 @@
         <span>Tableau</span>
     </h2>
 </doc-anchor-target>
-<caption>Essai de balise caption</caption>
+<doc-anchor-target id="markdown">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#markdown">#</doc-anchor-trigger>
+        <span>Markdown</span>
+    </h3>
+</doc-anchor-target>
 <table class="comfortable">
 <thead>
 <tr>
@@ -211,6 +218,44 @@
 </tbody>
 </table>
 <p>Table 1: titre du tableau</p>
+<doc-anchor-target id="html">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#html">#</doc-anchor-trigger>
+        <span>HTML</span>
+    </h3>
+</doc-anchor-target>
+<table>
+  <caption>Titre du tableau</caption>
+  <thead><tr><th>Colonne 1</th><th style="text-align: right;">Colonne 2</th></tr></thead>
+  <tbody><tr><td>texte de la cellule</td><td style="text-align: right;">jkhjkjhkj</td></tr><tr><td>Autre texte</td><td style="text-align: right;">jkhhkj</td></tr></tbody>
+</table>
+<doc-anchor-target id="une-image">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#une-image">#</doc-anchor-trigger>
+        <span>Une image</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="markdown-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#markdown-1">#</doc-anchor-trigger>
+        <span>Markdown</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../vih.jpg" alt="Le VIH" />
+    <figcaption class="caption">Le VIH</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="html-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#html-1">#</doc-anchor-trigger>
+        <span>HTML</span>
+    </h3>
+</doc-anchor-target>
+<figure>
+  <img src="../vih.jpg" alt="Le VIH" />
+  <figcaption>Le virus VIH</figcaption>
+</figure>
 <doc-anchor-target id="blocs-dinfo">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#blocs-dinfo">#</doc-anchor-trigger>
