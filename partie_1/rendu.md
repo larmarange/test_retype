@@ -5,7 +5,7 @@ order: -30
 
 # Rendu HTML des différents composants
 
-## Tableau
+## Tableau {#table}
 
 ### Markdown 
 
