@@ -8,20 +8,20 @@
     <!-- Primary Meta Tags -->
     <title>Rendu HTML des diff&#233;rents composants</title>
     <meta name="title" content="Rendu HTML des différents composants">
-    <meta name="description" content="Le VIH" />
+    <meta name="description" content="Colonne 1" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="/test_retype/partie_1/rendu/">
     <meta property="og:title" content="Rendu HTML des différents composants">
-    <meta property="og:description" content="Le VIH">
+    <meta property="og:description" content="Colonne 1">
     <meta property="og:image" content="/test_retype/partie_1/vih.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/test_retype/partie_1/rendu/">
     <meta property="twitter:title" content="Rendu HTML des différents composants">
-    <meta property="twitter:description" content="Le VIH">
+    <meta property="twitter:description" content="Colonne 1">
     <meta property="twitter:image" content="/test_retype/partie_1/vih.jpg">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/test_retype/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
@@ -200,11 +200,24 @@
     </h3>
 </doc-anchor-target>
 <div class="caption">Titre du tableau</div>
-  
-| Colonne 1           | Colonne 2 |
-|---------------------|----------:|
-| texte de la cellule | jkhjkjhkj |
-| Autre texte         |    jkhhkj |
+<table class="comfortable">
+<thead>
+<tr>
+<th>Colonne 1</th>
+<th style="text-align: right;">Colonne 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>texte de la cellule</td>
+<td style="text-align: right;">jkhjkjhkj</td>
+</tr>
+<tr>
+<td>Autre texte</td>
+<td style="text-align: right;">jkhhkj</td>
+</tr>
+</tbody>
+</table>
 <doc-anchor-target id="html">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#html">#</doc-anchor-trigger>
