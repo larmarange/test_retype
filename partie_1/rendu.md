@@ -7,14 +7,17 @@ order: -30
 
 ## Tableau
 
-### Markdown
+### Markdown avec figcaption en HTML
 
+<figure>
+  <figcaption class="caption">Titre du tableau</figcaption>
+  
 | Colonne 1           | Colonne 2 |
 |---------------------|----------:|
 | texte de la cellule | jkhjkjhkj |
 | Autre texte         |    jkhhkj |
 
-Table 1: titre du tableau
+</figure>
 
 ### HTML
 
