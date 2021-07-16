@@ -1,3 +1,16 @@
 {
-  "base": "test_retype"
+  "base": "test_retype",
+  "branding": {
+    "title": "Livre test ReType"
+  }
+  "links": [
+    {
+      "text": "Accueil",
+      "link": "https://larmarange.github.io/test_retype/"
+    },
+    {
+      "text": "GitHub",
+      "link": "https://github.com/larmarange/test_retype/"
+    }
+  ]
 }
