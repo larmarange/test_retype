@@ -1,6 +1,6 @@
 ---
-order: -30
 label: Rendu HTML
+order: -30
 ---
 
 # Rendu HTML des différents composants
