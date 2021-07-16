@@ -1,5 +1,6 @@
 ---
 order: 200
+label: Un autre chapitre
 ---
 
 # Un autre chapitre avec un titre particulièrement long
