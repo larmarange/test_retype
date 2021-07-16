@@ -1,5 +1,6 @@
 ---
 order: 100
+label: Premier chapitre
 ---
 
 # Premier chapitre
