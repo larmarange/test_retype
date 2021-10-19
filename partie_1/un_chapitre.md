@@ -15,3 +15,7 @@ Un div avec une classe personnalisée.
   Un second div avec classe personnalisée
 </div>
 
+
+J'ajoute une vidéo embarquée.
+
+[!embed](https://www.youtube.com/embed/C0DPdy98e4c)
